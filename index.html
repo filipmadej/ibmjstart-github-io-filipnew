@@ -33,21 +33,21 @@
         A simple but very effective way to debug is to use the cf logs <appname> command.  This command tails the end of the application stderr and stdout logs and prints them to your console.For example, here is the result of the vmc logs command for a java web application called plants.
         
         <pre><code>c:\>cf logs plants
-        Reading logs/stdout.log... OK
-        Launching defaultServer (wlp-1.0.1.20130309-1525/websphere-kernel_1.0.1) on IBM
-        J9 VM, version pxa6470sr4fp1-20130325_01 (SR4 FP1) (en_US)
-        [AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
-        [AUDIT   ] CWWKS4104A: LTPA keys created in 1.905 seconds. LTPA key file: /var/v
-        cap.local/dea/apps/plants-0-2844042ebc9b3138d53cb2c7db3a138b/wlp/usr/servers/def
-        aultServer/resources/security/ltpa.keys
-        [AUDIT   ] CWWKZ0058I: Monitoring dropins for applications.
-        [WARNING ] WARN_MANIFEST_CLASSPATH_NOT_FOUND
+Reading logs/stdout.log... OK
+Launching defaultServer (wlp-1.0.1.20130309-1525/websphere-kernel_1.0.1) on IBM
+J9 VM, version pxa6470sr4fp1-20130325_01 (SR4 FP1) (en_US)
+[AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
+[AUDIT   ] CWWKS4104A: LTPA keys created in 1.905 seconds. LTPA key file: /var/v
+cap.local/dea/apps/plants-0-2844042ebc9b3138d53cb2c7db3a138b/wlp/usr/servers/def
+aultServer/resources/security/ltpa.keys
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications.
+[WARNING ] WARN_MANIFEST_CLASSPATH_NOT_FOUND
         
-                                       derbyLocale_cs.jar
-        
-                                       file:/var/vcap.local/dea/apps/plants-0-2844042ebc
-        9b3138d53cb2c7db3a138b/wlp/usr/servers/defaultServer/apps/myapp.war/WEB-INF/lib/
-        derby-10.8.2.2.jar</code></pre>
+                               derbyLocale_cs.jar
+
+                               file:/var/vcap.local/dea/apps/plants-0-2844042ebc
+9b3138d53cb2c7db3a138b/wlp/usr/servers/defaultServer/apps/myapp.war/WEB-INF/lib/
+derby-10.8.2.2.jar</code></pre>
         
         <b>CF EVENTS &lt;APPNAME&gt;</b><br/>
         Show events for an application.
