@@ -29,9 +29,7 @@
 
         <h4>Provides guidance and suggestions to debug bluemix application and service development</h4>
         
-        <h5><b>Debugging applications</b></h5>
-        
-        <b>CF LOGS &lt;APPNAME&gt;</b>
+        <b>CF LOGS &lt;APPNAME&gt;</b><br/>
         A simple but very effective way to debug is to use the cf logs <appname> command.  This command tails the end of the application stderr and stdout logs and prints them to your console.For example, here is the result of the vmc logs command for a java web application called plants.
         
         <pre><code>c:\>cf logs plants
@@ -51,11 +49,11 @@
         9b3138d53cb2c7db3a138b/wlp/usr/servers/defaultServer/apps/myapp.war/WEB-INF/lib/
         derby-10.8.2.2.jar</code></pre>
         
-        <b>CF EVENTS &lt;APPNAME&gt;</b>
+        <b>CF EVENTS &lt;APPNAME&gt;</b><br/>
         Show events for an application.
         <pre><code>time                        instance index   description                 exit status
-        2013-08-07 16:31:47 +0000   0                out of memory               Failure (255)
-        2013-08-07 16:31:48 +0000   0                Hostname not supplied: ''   Failure (-1)</code></pre>
+2013-08-07 16:31:47 +0000   0                out of memory               Failure (255)
+2013-08-07 16:31:48 +0000   0                Hostname not supplied: ''   Failure (-1)</code></pre>
 
         <hr>
         <h3 style="color:blue;">WordPress</h3>
