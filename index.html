@@ -16,16 +16,20 @@
     <div class="wrapper">
       <header>
         <h1>IBM jStart</h1>
-        <p>Organization Page</p>
+        <p>Organization Page
+          <ul><li><a href="#debug">Debug and Hints</a></li>
+            <li><a href="#wordpress">WordPress</a></li>
+          </ul></p>
 
-
+        <p class="view"><a href="https://github.com/ibmjstart/bluemix-sample-tia-node">View Twitter Influencer Analyzer (Node)</a></p>
+        <p class="view"><a href="https://github.com/ibmjstart">View My GitHub Profile</a></p>
         <p class="view"><a href="https://github.com/ibmjstart">View My GitHub Profile</a></p>
 
       </header>
       <section>
-        <h1>BlueMix, an IBM Open Cloud Initiative</h1>
+        <h1><a href="http://www.ibm.com/bluemix">BlueMix</a>, an IBM Open Cloud Initiative</h1>
         
-        <h3 style="color:blue;">Debug and Hints</h3>
+        <h3 id="debug" style="color:blue;">Debug and Hints</h3>
 
         <h4>Provides guidance and suggestions to debug bluemix application and service development</h4>
         
@@ -56,13 +60,13 @@ derby-10.8.2.2.jar</code></pre>
 2013-08-07 16:31:48 +0000   0                Hostname not supplied: ''   Failure (-1)</code></pre>
 
         <hr>
-        <h3 style="color:blue;">WordPress</h3>
+        <h3 id="wordpress" style="color:blue;">WordPress</h3>
 
         <h4>WordPress is a <a href="http://en.wikipedia.org/wiki/Free_and_open_source">free and open source</a> <a href="http://en.wikipedia.org/wiki/Blog">blogging</a> tool and a <a href="http://en.wikipedia.org/wiki/Content_management_system">content management system</a> (CMS) based on <a href="http://en.wikipedia.org/wiki/PHP">PHP</a> and <a href="http://en.wikipedia.org/wiki/MySQL">MySQL</a> which runs on a <a href="http://en.wikipedia.org/wiki/Web_hosting_service">web hosting service</a>.  Features include a plug-in architecture and a template system.  WordPress is completely customizable and can be used for almost anything.   You can use Wordpress as a foundation of your web application to call social data APIs.</h5>
         
         In order to have Wordpress work on the IBM BlueMix Platform, do the following:
         <ol>
-        <li>Download a current stable version of Wordpress from http://wordpress.org/download/.</li>
+        <li>Download a current stable version of Wordpress from <a href="http://wordpress.org/download/">http://wordpress.org/download/</a>.</li>
         <li>Untar or unzip the download and change to the base directory, usually "wordpress".</li>
         <li>From the base directory, run<pre><code>echo &quot;&lt;?php&quot; > wp-salt.php</code></pre></li>
         <li>Followed by ....<pre><code>curl https://api.wordpress.org/secret-key/1.1/salt/ >> wp-salt.php</code></pre></li>
