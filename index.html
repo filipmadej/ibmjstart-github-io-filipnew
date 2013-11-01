@@ -102,7 +102,7 @@ derby-10.8.2.2.jar</code></pre>
         <ol>
         <li>Download a current stable version of Druapl from <a href="https://drupal.org/index.html" target="_new">https://drupal.org/index.html</a>.</li>
         <li>Untar or unzip the download (e.g. tar -xzf drupal-7.23.tar.gz) and change to the base directory (e.g. drupal-7.23).</li>
-        <li>From the base directory, copy the settings.php file found in <a href="https://github.com/ibmjstart/bluemix-php-frameworks/tree/master/drupal" target="_new">this repository</a> into the folder "drupal-7.23/sites/default"<pre><code>bash-3.2$ cp settings.php drupal-7.23/sites/default</code></pre></li>
+        <li>From the base directory, copy the settings.php file found in <a href="https://github.com/ibmjstart/bluemix-php-frameworks/tree/master/drupal" target="_new">this repository</a> into the folder<br/>"&lt;base_directory&gt;/sites/default"<pre><code>bash-3.2$ cp settings.php drupal-7.23/sites/default</code></pre></li>
         <li>Using the cf gem, install (push) Drupal into BlueMix with the Heroku PHP buildpack. 
         <pre><code>cf push --buildpack https://github.com/heroku/heroku-buildpack-php.git</code></pre>
         **NOTE**:  During the install choose to bind to a mySQL database service.</li>
