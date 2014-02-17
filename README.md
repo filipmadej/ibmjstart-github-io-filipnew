@@ -3,7 +3,8 @@ Welcome to ibmjstart.github.io
 
 Here is a direct link to our Organization Page where you will find an index of sample repositories and guidance.
 
-<a href="http://ibmjstart.github.io" target="_blank"><pre>http://ibmjstart.github.io</pre></a>
+<pre><a href="http://ibmjstart.github.io" target="_blank">http://ibmjstart.github.io</a>
+Looking for more IBM Github Repos? Check out <a href="http://ibm.github.io" target="_blank">http://ibm.github.io</a></pre>
 
 Happy Coding!
 
